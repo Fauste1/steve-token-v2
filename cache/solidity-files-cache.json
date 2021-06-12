@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/sbren/Documents/code/projects/steve-token-v2/contracts/Steve.sol": {
-      "lastModificationDate": 1623187220059,
-      "contentHash": "b41718eef4a856694786578fd4d3da86",
+      "lastModificationDate": 1623475132964,
+      "contentHash": "4e94fe9d2e7fa8fe04004ac6d7f3984d",
       "sourceName": "contracts/Steve.sol",
       "solcConfig": {
         "version": "0.8.0",
@@ -28,9 +28,9 @@
         }
       },
       "imports": [
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
         "@openzeppelin/contracts/access/Ownable.sol",
-        "@openzeppelin/contracts/security/Pausable.sol"
+        "@openzeppelin/contracts/security/Pausable.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
       ],
       "versionPragmas": [
         "^0.8.0"

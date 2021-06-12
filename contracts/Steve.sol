@@ -1,11 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
-
-// Should I explicitly declare the interface here?
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 
 contract Steve is ERC20, Ownable, Pausable {
@@ -13,7 +11,7 @@ contract Steve is ERC20, Ownable, Pausable {
     _mint(msg.sender, initialSupply_);
   }
 
-  function mintFurther(uint amount) external onlyOwner {
+  function mint(uint amount) external onlyOwner {
     _mint(msg.sender, amount);
   }
 
