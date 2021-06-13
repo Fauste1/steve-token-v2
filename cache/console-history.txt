@@ -1,3 +1,17 @@
+await steve.transfer("0xA8d4B86c98C847C59b0c263a15254fe4A2d1558B", "100000000000000000000000")
+await steve.transfer("0xA8d4B86c98C847C59b0c263a15254fe4A2d1558B", "1000000000000000000")
+const steve = await hre.ethers.getContractAt("Steve", "0xd8f4353F8140333B2D99028756b3775cc5cf93E5")
+const steve = await hre.ethers.getContractAt("Steve Token", "0xd8f4353F8140333B2D99028756b3775cc5cf93E5")
+for (const account of accounts) { console.log(account.address) }
+const accounts = await hre.ethers.getSigners()
+for (const account of accounts) { console.log(account.address) }
+const accounts = await hre.ethers.getSigners()
+for (const account of accounts) { console.log(account.address) }
+const accounts = await hre.ethers.getSigners()
+for (const account of accounts) { console.log(account.address) }
+const accounts = await hre.ethers.getSigners()
+console.log(addresses)
+const addresses = await hre.ethers.getSigners()
 console.log(bobBalance.toString())
 bobBalance = await steve.balanceOf(bob.address)
 await steve.transfer(bob.address, 10)
